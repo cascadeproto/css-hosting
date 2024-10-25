@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Vitesse";
+  src: url("https://stage.admissions.umc.utah.edu/wp-content/themes/umctheme3/fonts/Vitesse-Bold.woff") format("woff");
+}
+:root {
+		/* Brand */
+		--utah-red: #be0000;
+		--black: #000000;
+		--limestone: #f3efe6;
+		--wasatch-sunrise: #ffb81d;
+		--great-salt-lake: #3ABFC0;
+		--red-rocks: #890000;
+		--granite-peak: #708E99;
+		--zion-cinder-cone: #707271;
+		--heading: "Vitesse", sans-serif; /* Headlines, subheads, labels, small runs of copy */
+		--body: "Source Sans Pro", sans-serif; /* Body copy */
+		/* Aliases */
+		--accent-yellow: var(--wasatch-sunrise);
+		--accent-blue: var(--great-salt-lake);
+		--accent-red: var(--red-rocks);
+		--accent-bluegrey: var(--granite-peak);
+		--accent-bluegray: var(--granite-peak);
+		--accent-grey: var(--zion-cinder-cone);
+		--accent-gray: var(--zion-cinder-cone);
+		/* Utility */
+		--title-bar-height: 74px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3efe6;
+  font-family: var(--body);
+}
+img {
+  max-width: 100%;
+}
